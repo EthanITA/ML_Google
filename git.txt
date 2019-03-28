@@ -1,0 +1,39 @@
+git reset --hard HEAD~1
+# Undo to the latest commit (1 can be changed)
+git push origin HEAD --force
+# Force push the undoed commit
+
+git add .		      forza l'aggiunta di tutto
+git add "<file/cartella>"     aggiunge alla lista (opzionale)
+git commit -m "<commit>"      commit e sommario della lista
+git push                      aggiorna la repository dopo commit
+
+
+git checkout
+M = modified
+A = added
+D = deleted
+R = renamed
+C = copied
+U = updated but unmerged
+
+
+git stash
+git pull
+git stash pop
+
+git fetch
+git reset --hard origin/master
+
+git fetch
+git checkout origin/master <filepath>
+
+
+# If asking username and password everytime
+
+sudo ssh-keygen -t rsa -b 4096 -C "email" # Generate ssh key 
+# Choose id_rsa as file's name
+cat ~/.ssh/id_rsa.pub # Copy to github in Deploy Key"
+git remote set-url origin git+ssh://git@github.com/username/reponame.git 
+# Set the repo to use ssh
+                                                       
