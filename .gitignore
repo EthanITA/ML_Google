@@ -1,1 +1,3 @@
-.ipynb_checkpoints
+.ipynb_checkpoints # Useless folder
+
+Scikit-learn/flower_photos/ # Flower datasets (~400MB)
