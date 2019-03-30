@@ -31,6 +31,7 @@ git checkout origin/master <filepath>
 
 # If asking username and password everytime
 
+cd /root/.ssh
 sudo ssh-keygen -t rsa -b 4096 -C "email" # Generate ssh key 
 # Choose id_rsa as file's name
 cat ~/.ssh/id_rsa.pub # Copy to github in Deploy Key"
