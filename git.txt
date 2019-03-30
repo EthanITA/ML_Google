@@ -3,6 +3,8 @@ git reset --hard HEAD~1
 git push origin HEAD --force
 # Force push the undoed commit
 
+git rm --cached [filenames]
+
 git add .		      forza l'aggiunta di tutto
 git add "<file/cartella>"     aggiunge alla lista (opzionale)
 git commit -m "<commit>"      commit e sommario della lista
